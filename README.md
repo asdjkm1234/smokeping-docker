@@ -49,3 +49,20 @@ docker run -itd \
 -e SMOKEPING_SLAVE_NAME="host1" \
 asdjkm1234/smokeping-slave:v1
 
+## 关闭容器及其他管理指令
+
+- 关闭master面板
+```
+cd /your/project/path/
+docker compose down
+```
+
+- 关闭slave探针
+```
+docker stop smokeping-slave && docker rm smokeping-slave
+```
+
+- 查看slave探针日志
+```
+docker logs -f smokeping-slave
+```
