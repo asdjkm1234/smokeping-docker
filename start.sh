@@ -6,9 +6,6 @@ apachectl -D FOREGROUND &
 # 设置密码文件权限
 chown 600 /usr/local/smokeping/etc/smokeping_secrets.dist
 
-# 设置密码文件权限
-chown 600 /usr/local/smokeping/etc/smokeping_secrets.dist
-
 # 启动 SmokePing
 /usr/local/smokeping/bin/smokeping /usr/local/smokeping/etc/config
 
