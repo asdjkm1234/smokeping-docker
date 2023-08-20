@@ -1,6 +1,6 @@
 *** General ***
-owner    = asdjkm1234
-contact  = asdjkm1234@gmail.com
+owner    = [填写你的昵称]
+contact  = [填写你的邮箱]
 mailhost = my.mail.host
 imgcache = /usr/local/smokeping/cache
 imgurl   = cache
