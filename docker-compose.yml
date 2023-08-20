@@ -1,0 +1,13 @@
+version: '3'
+services:
+  smokeping:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: asdjkm1234/smokeping-master:v1
+    ports:
+      - "8080:80"
+    volumes:
+      - ./smokeping_config:/usr/local/smokeping/etc
+    container_name: smokeping-master
+
