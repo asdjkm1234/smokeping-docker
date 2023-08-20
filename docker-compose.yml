@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: asdjkm1234/smokeping-master:v1
+    image: asdjkm1234/smokeping-master:v2
     ports:
       - "8080:80"
     volumes:
