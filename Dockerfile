@@ -75,4 +75,4 @@ COPY start.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/start.sh
 
 # 启动容器时执行脚本
-CMD ["/usr/local/bin/start.sh"]
+#CMD ["/usr/local/bin/start.sh"]

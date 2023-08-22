@@ -9,5 +9,7 @@ services:
       - "8080:80"
     volumes:
       - ./smokeping_config:/usr/local/smokeping/etc
+      - ./start.sh:/usr/local/bin/start.sh
     container_name: smokeping-master
+    command: ["bash", "/usr/local/bin/start.sh"]
 
