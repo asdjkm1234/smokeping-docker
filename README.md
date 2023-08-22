@@ -48,7 +48,7 @@ docker run -itd \
 -e SMOKEPING_MASTER_URL="http://your.server.domain:8080/smokeping/smokeping.fcgi.dist" \
 -e SMOKEPING_SHARED_SECRET="123456" \
 -e SMOKEPING_SLAVE_NAME="host1" \
-asdjkm1234/smokeping-slave:v1
+asdjkm1234/smokeping-slave:latest
 ```
 
 ## 关闭容器及其他管理指令
