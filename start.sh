@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 启动 Apache
-apachectl -D FOREGROUND
+apachectl -D FOREGROUND &
 
 # 设置密码文件权限
 chmod 600 /usr/local/smokeping/etc/smokeping_secrets.dist
