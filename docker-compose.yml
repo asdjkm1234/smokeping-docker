@@ -10,4 +10,5 @@ services:
     volumes:
       - ./smokeping_config:/usr/local/smokeping/etc
     container_name: smokeping-master
-
+    environment:
+      - TZ=Asia/Shanghai
