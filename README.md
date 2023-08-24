@@ -2,7 +2,7 @@
 
 ## 演示站
 不保证长期有效  
-http://38.143.0.174/smokeping/smokeping.fcgi.dist
+http://1.12.74.196/smokeping/smokeping.fcgi.dist
 
 ## 前置环境准备
 - docker环境
