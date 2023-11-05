@@ -46,7 +46,7 @@ RUN sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list && \
 RUN set -eux; \
     apt-get update; \
     apt-get install -y --no-install-recommends \
-        libfindbin-libs-perl librrds-perl fping; \
+        libfindbin-libs-perl librrds-perl liblwp-protocol-https-perl fping; \
     rm -rf /var/lib/apt/lists/*; \
     apt-get clean; \
     rm -rf /tmp/*
